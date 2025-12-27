@@ -1,32 +1,73 @@
-# To-Do List Web Application
+# Task Management Web Application
 
-A simple yet powerful **task management app** with full CRUD functionality, built using **Node.js, Express, MySQL, and Vanilla JavaScript**. The app allows users to add, edit, and delete tasks with real-time updates on a clean, responsive interface.
+A simple and user-friendly Task Management Web Application that allows users to manage daily tasks digitally.
+The application supports basic task operations such as adding, viewing, updating, and deleting tasks through a clean and responsive interface.
 
 ## Features
-- Add, edit, and delete tasks seamlessly  
-- Inline editing with instant updates  
-- Responsive UI with **Bootstrap 5**  
-- RESTful API with **Express.js**  
-- Persistent storage using **MySQL**  
 
- ## Tech Stack
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript (Fetch API)  
-- **Backend:** Node.js, Express.js  
-- **Database:** MySQL  
-- **Other:** CORS, REST API  
+Add new tasks
 
-##  Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/todo-app.git
-##  2.Navigate to project folder:
-cd todo-app
-## 3.Install dependencies:
-npm install
-## 4.Set up MySQL database and update credentials in server.js.
+View existing tasks
 
-## 5.Start the backend server:
-node server.js
+Update task details or status
+
+Delete tasks when no longer required
+
+Responsive user interface for better usability
+
+## Application Overview
+
+The application follows a standard client–server architecture:
+
+The frontend handles user interaction and displays task data
+
+The backend logic processes requests and communicates with the database
+
+The database stores task information persistently
+
+## Tools & Technologies
+
+### Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+### Backend Logic
+
+JavaScript-based server-side logic
+
+### Database
+
+MySQL
+
+### Version Control
+
+Git, GitHub
+
+(The project focuses on understanding end-to-end application flow and CRUD operations.)
+
+## Database Design (Overview)
+
+A task table is used to store task details
+
+Each task is uniquely identified using a task ID (primary key)
+
+Basic fields include task description and task status
+
+## How the Application Works
+
+User performs an action from the UI (add/update/delete task)
+
+The request is processed by backend logic
+
+The database is updated accordingly
+
+The updated task list is displayed on the
+
+
 ## 6.Open index.html in your browser (or run via Live Server).
 ## Screenshots:
 <img width="1902" height="923" alt="image" src="https://github.com/user-attachments/assets/dfe09d07-c3fc-4a6e-a52c-884ac7d75e6f" />
